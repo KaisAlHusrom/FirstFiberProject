@@ -4,15 +4,11 @@ import (
 	"log"
 	"os"
 
-	"fmt"
-
 	Config "github.com/KaisAlHusrom/FirstFiberProject/Config"
 	Routes "github.com/KaisAlHusrom/FirstFiberProject/Routes"
-	"github.com/KaisAlHusrom/FirstFiberProject/models"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
-	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
 )
 
 func main() {
